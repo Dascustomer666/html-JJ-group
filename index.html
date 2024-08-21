@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JJ Realty Group - Find your dream home with expert property management services.">
+    <meta name="keywords" content="Real Estate, Property Management, Dream Home, JJ Realty Group">
+    <meta name="author" content="Jordal">
+    <title>JJ Realty Group | By Jordal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">JJ Realty Group.</a>
+
+        <!-- Menu Toggle for mobile view -->
+        <div class="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Review</a>
+            <a href="#" style="--i:4">Featured</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+
+        <div class="social-media">
+            <a href="#" style="--i:1" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            <a href="#" style="--i:2" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="#" style="--i:3" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Property Management.</h1>
+            <h3>Find Your Dream Home Now!</h3>
+            <p>At JJ Realty Group, we specialize in finding you the perfect home and managing properties with care. Explore our curated listings and let us help you find your dream home with ease and confidence.</p>
+            <a href="#" class="btn">Explore Properties</a>
+        </div>
+
+        <div class="home-img">
+            <div class="rhombus">
+                <img src="house.png" alt="Beautiful house for sale">
+            </div>
+        </div>
+
+        <div class="rhombus2"></div>
+    </section>
+
+    <!-- Add footer if needed -->
+    <footer>
+        <p>&copy; 2024 JJ Realty Group. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navbar = document.querySelector('.navbar');
+
+            menuToggle.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
